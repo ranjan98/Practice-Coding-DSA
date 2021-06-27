@@ -1,5 +1,5 @@
 import java.util.HashMap;
-public class HelloWorld{
+public class FirstRepeatedNumber{
     static String firstRepeated(int arr[]){
         HashMap<Integer, Boolean> repetitionMap = new HashMap<>();
         for(int i=0;i<arr.length;i++){
