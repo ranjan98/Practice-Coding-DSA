@@ -47,6 +47,6 @@ public class HelloWorld{
         for(int i=0;i<mergedArr.length;i++){
             System.out.print(mergedArr[i]+ " ");
         }
-        // Output: 0 1 3 4 5 6 8
+        // Output: 0 1 3 4 5 6 8 9 12
     }
 }
