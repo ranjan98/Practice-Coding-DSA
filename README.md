@@ -1,2 +1,2 @@
-# Practice-Coding-Questions
+# Practice-Coding-DSA
 Some of the codes I wrote while practicing
