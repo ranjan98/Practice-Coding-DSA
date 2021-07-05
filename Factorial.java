@@ -7,6 +7,13 @@ public class Factorial{
         return n*factorialRecursive(n-1);
     }
     
+    // Using Tail Recursion -> Space Complexity: O(1)
+     public static int factorialRecursive2(int x, int total) {
+        if(x == 0)
+            return total;
+        return factorialRecursive2(x-1, total*x);
+    }
+    
     // Using Iterative Approach
     public static int factorialIterative(int n){
         for(int i=n; i>1;i--){
